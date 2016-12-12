@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: teste-lab1-leandrominniti
+  host: teste-lab1-leandrominniti
+  disk_quota: 1024M
+  services:
+  - teste-lab1-leandrominniti-AdvancedMobileAccess
+  - teste-lab1-leandrominniti-imfpush
+  - teste-lab1-leandrominniti-cloudantNoSQLDB
